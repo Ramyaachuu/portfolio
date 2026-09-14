@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ramya V — Aspiring Software Engineer | Java Developer</title>
+<meta name="description" content="Portfolio of Ramya V, a Computer Science and Engineering graduate focused on Java development, backend fundamentals and SQL." />
+
+<!-- Bootstrap 5 (grid + utilities only — visual design is custom, see style.css) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="navMenu" class="nav-menu">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#internship" class="nav-link">Internship</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#workshop" class="nav-link">Workshop</a>
+      <a href="#resume" class="nav-link">Resume</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <i class="bi bi-moon-stars" id="themeIcon"></i>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HOME / HERO ============ -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="gutter-label"></p>
+        <h1 class="hero-name">RAMYA V</h1>
+        <p class="hero-role">Aspiring Software Engineer <span class="ink-soft">|</span> Java Developer</p>
+        <p class="hero-intro">
+          Computer Science and Engineering graduate with a foundation in Java, object-oriented
+          programming and SQL. I enjoy breaking problems down into clean, working code and I'm
+          looking to start my career building real backend and software systems.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary-custom">View Projects</a>
+<a href="assets/resume.pdf" download class="btn btn-primary-custom">
+    <i class="bi bi-download"></i>
+    Download Resume
+</a>         
+</a>        </div>
+        <div class="hero-links">
+          <a href="https://www.linkedin.com/in/ramya-v26" target="_blank" rel="noopener" class="icon-link" aria-label="LinkedIn profile">
+            <i class="bi bi-linkedin"></i> LinkedIn
+          </a>
+          <!-- TODO: Replace with your real GitHub profile URL -->
+          <a href="https://github.com/Ramyaachuu" target="_blank" rel="noopener" class="icon-link" aria-label="GitHub profile">
+            <i class="bi bi-github"></i> GitHub
+            <span>github.com/Ramyaachuu</span>
+          </a>
+          <a href="#contact" class="icon-link" aria-label="Go to contact section">
+            <i class="bi bi-envelope"></i> Contact Me
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-code" aria-hidden="true">
+        <div class="code-window">
+          <div class="code-titlebar">
+            <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+            <span class="code-filename">Developer.java</span>
+          </div>
+          <pre class="code-body"><code id="typedCode"></code><span class="caret">|</span></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="container narrow">
+      <p class="gutter-label"></p>
+      <h2 class="section-title">About Me</h2>
+      <p class="section-text">
+        I'm a Computer Science and Engineering graduate from Idhaya Engineering College for Women,
+        Anna University, with a strong interest in software development. My focus areas are Java
+        programming, object-oriented design and working with relational databases through SQL.
+        Alongside this, I've built a working front-end foundation with HTML, CSS, JavaScript and
+        Bootstrap during a web development internship.
+      </p>
+      <p class="section-text">
+        I'm looking for an entry-level Software Engineer or Java Developer role where I can apply
+        what I've learned, keep growing my technical skills and contribute to real software
+        development projects as part of a team.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <p class="gutter-label"></p>
+      <h2 class="section-title">Technical Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3 class="skill-cat">Programming</h3>
+          <div class="tag-row">
+            <span class="tag">Java</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-cat">Java &amp; Backend</h3>
+          <div class="tag-row">
+            <span class="tag">Core Java</span>
+            <span class="tag">Object-Oriented Programming</span>
+            <span class="tag">Exception Handling</span>
+            <span class="tag">Collections</span>
+            <span class="tag">JDBC</span>
+            <span class="tag">MySQL Connectivity</span>
+            <span class="tag">Console-based Java Applications</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-cat">Database</h3>
+          <div class="tag-row">
+            <span class="tag">SQL</span>
+            <span class="tag">SQL Queries</span>
+            <span class="tag">Joins</span>
+            <span class="tag">Subqueries</span>
+            <span class="tag">Database Operations</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Oracle Database</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-cat">Frontend</h3>
+          <div class="tag-row">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-cat">Tools</h3>
+          <div class="tag-row">
+            <span class="tag">VS Code</span>
+            <span class="tag">Eclipse</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">MySQL Workbench</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INTERNSHIP ============ -->
+  <section id="internship" class="section">
+    <div class="container narrow">
+      <p class="gutter-label"></p>
+      <h2 class="section-title">Internship</h2>
+
+      <div class="entry-block">
+        <div class="entry-head">
+          <h3 class="entry-title">Web Development Intern</h3>
+          <span class="entry-meta">Code Bind Technologies, Trichy</span>
+        </div>
+        <ul class="entry-list">
+          <li>Developed responsive web pages using HTML, CSS and Bootstrap.</li>
+          <li>Gained hands-on experience in front-end development.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <p class="gutter-label"></p>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-tab">
+            <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+            <span class="project-tab-name">agriculture-monitoring</span>
+          </div>
+          <div class="project-body">
+            <span class="project-category">IoT · Agriculture</span>
+            <h3 class="project-title">AI &amp; IoT-Based Agriculture Field Monitoring and Crop Yield Prediction</h3>
+            <p class="project-desc">
+              Developed an IoT-based smart agriculture system using Raspberry Pi Pico to monitor
+              field conditions and predict crop yield. This work was published as an IEEE paper.
+            </p>
+            <div class="tag-row">
+              <span class="tag tag-sm">Raspberry Pi Pico</span>
+              <span class="tag tag-sm">IoT</span>
+              <span class="tag tag-sm">IEEE Publication</span>
+            </div>
+            <p class="project-contribution"><strong>Key contribution:</strong> Designed and implemented the field-monitoring system and contributed to the published paper.</p>
+            <!-- TODO: Add your GitHub repo link for this project, then uncomment the line below -->
+            <!-- <a href="https://github.com/YOUR_USERNAME/agriculture-monitoring" target="_blank" rel="noopener" class="btn btn-outline-custom btn-sm-custom"><i class="bi bi-github"></i> GitHub</a> -->
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tab">
+            <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+            <span class="project-tab-name">url-threat-detection</span>
+          </div>
+          <div class="project-body">
+            <span class="project-category">AI · Cybersecurity</span>
+            <h3 class="project-title">Smart AI System for Malicious URL and Cyber Threat Detection</h3>
+            <p class="project-desc">
+              Developed an AI-based system to detect malicious URLs and help users identify safe
+              and unsafe websites.
+            </p>
+            <div class="tag-row">
+              <span class="tag tag-sm">Cyber Threat Detection</span>
+              <span class="tag tag-sm">AI-based System</span>
+            </div>
+            <p class="project-contribution"><strong>Key contribution:</strong> Built the system to classify and flag potentially malicious URLs.</p>
+            <!-- TODO: Add your GitHub repo link for this project, then uncomment the line below -->
+            <!-- <a href="https://github.com/YOUR_USERNAME/url-threat-detection" target="_blank" rel="noopener" class="btn btn-outline-custom btn-sm-custom"><i class="bi bi-github"></i> GitHub</a> -->
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education" class="section">
+    <div class="container narrow">
+      <p class="gutter-label"></p>
+      <h2 class="section-title">Education</h2>
+
+      <div class="entry-block">
+        <div class="entry-head">
+          <h3 class="entry-title">B.E. Computer Science and Engineering</h3>
+          <span class="entry-meta">2022 – 2026</span>
+        </div>
+        <p class="entry-sub">Idhaya Engineering College for Women, Chinnasalem — Anna University</p>
+        <p class="entry-sub">CGPA: <strong>8.03</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORKSHOP ============ -->
+  <section id="workshop" class="section section-alt">
+    <div class="container narrow">
+      <p class="gutter-label"></p>
+      <h2 class="section-title">Workshop</h2>
+
+      <div class="entry-block">
+        <div class="entry-head">
+          <h3 class="entry-title">Drone Technology Workshop</h3>
+          <span class="entry-meta">2 Days</span>
+        </div>
+        <ul class="entry-list">
+          <li>Gained knowledge about drone architecture, working principles and applications.</li>
+          <li>Understood the basics of drone control and real-time usage scenarios.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ============ RESUME ============ -->
+  <section id="resume" class="section section-alt">
+    <div class="container narrow text-center-custom">
+     
+      <h2 class="section-title">Resume</h2>
+      <p class="section-text">Download a copy of my complete resume as a PDF.</p>
+      <!--
+        TODO: Place your resume PDF file at: portfolio/assets/resume.pdf
+        The button below already points to that path — it will work as soon as the file exists there.
+      -->
+<a href="assets/resume.pdf" download class="btn btn-outline-custom">
+    Download Resume
+</a>   
+
+
+
+     
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section">
+    <div class="container narrow">
+      <p class="gutter-label"></p>
+      <h2 class="section-title">Contact</h2>
+      <p class="section-text">I'm open to entry-level Software Engineer and Java Developer opportunities — feel free to reach out.</p>
+
+      <div class="contact-grid">
+        <a href="mailto:ramyaachuthan2004@gmail.com" class="contact-item">
+          <i class="bi bi-envelope"></i>
+          <span>ramyaachuthan2004@gmail.com</span>
+        </a>
+        <a href="tel:+919345571769" class="contact-item">
+          <i class="bi bi-telephone"></i>
+          <span>+91 xxxxxxxx69</span>
+        </a>
+        <a href="https://www.linkedin.com/in/ramya-v26" target="_blank" rel="noopener" class="contact-item">
+          <i class="bi bi-linkedin"></i>
+          <span>linkedin.com/in/ramya-v26</span>
+        </a>
+        <!-- TODO: Replace with your real GitHub profile URL -->
+        <a href="https://github.com/Ramyaachuu" target="_blank" rel="noopener" class="contact-item">
+          <i class="bi bi-github"></i>
+          <span>github.com/Ramyaachuu</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Ramya V. Built with HTML, CSS, JavaScript &amp; Bootstrap.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
